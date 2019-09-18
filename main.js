@@ -6,12 +6,12 @@
   const RESULT = document.querySelector(".result");
 
   const FORTUNE_LIST = [["大吉", "yellow"],
-                       ["吉", "orange"],
-                       ["中吉", "pink"],
-                       ["小吉", "green"],
-                       ["末吉", "blue"],
-                       ["凶", "white"],
-                       ["大凶", "gray"]];
+                        ["吉", "orange"],
+                        ["中吉", "pink"],
+                        ["小吉", "green"],
+                        ["末吉", "blue"],
+                        ["凶", "white"],
+                        ["大凶", "gray"]];
 
   BUTTON.addEventListener("click",()=>{
     let _randNum = Math.floor(Math.random()*FORTUNE_LIST.length);
